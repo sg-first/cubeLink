@@ -25,13 +25,14 @@ public class textureUI : MonoBehaviour
     {
         if (Press.canCreate)
         {
-            Press.canCreate = false;
-            setText("点击要设置贴图的物体");
+            //Press.canCreate = false;
+            setText("web下暂不可用此功能");
         }
     }
 
     void Update()
     {
+        /*
         if (!Press.canCreate && Input.GetMouseButtonDown(0))
         {
             //摄像机为原点创建一条射线
@@ -49,5 +50,6 @@ public class textureUI : MonoBehaviour
             Press.canCreate = true;
             Press.ready = true;
         }
+        */
     }
 }
