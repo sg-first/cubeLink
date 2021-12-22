@@ -101,6 +101,6 @@ public class movController : MonoBehaviour
     {
         KeyUpdate();
         mouseRotUpdate();
-        mouseMovUpdate();
+        //mouseMovUpdate();
     }
 }
